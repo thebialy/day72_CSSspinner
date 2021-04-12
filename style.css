@@ -23,3 +23,17 @@ body {
     transform: translateX(var(--tX));
     mix-blend-mode: lighten;
   }
+
+.gold {
+    --bg: linear-gradient(-50deg, #A59A5F 0%, #f7ce68 100%);
+    margin-right: var(--hm);
+    animation: attract-orange var(--animation);
+}
+
+.blue {
+    --bg: linear-gradient(50deg, #0D4D6E 0%, #c5f5ff 100%);
+    margin-left: var(--hm);
+    animation: attract-blue var(--animation);
+  }
+
+  
