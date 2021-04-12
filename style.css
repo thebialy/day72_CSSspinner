@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 1rem;
+}
+
+.spinner-1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
